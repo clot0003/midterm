@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ======================
+MY STYLES
+========================= */
+
+body {
+    background-color: #aad4cf;
+}
+/* Changes backround colour */
+
+.container
+{
+    background-color: #d4e9e7;
+    width: 1024px;
+    margin: 0 auto;
+}
+/* Adds container to the website and changes colour of it */
+
+.centered {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+/* Positions header image */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+/* Alligns the text in the container */
+
+  header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+  }
+/* Styles the font and size of the text in the header */
+
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+  }
+/* Styles the font, size, and colour of the text in the nav tag */
+
+  nav li{
+    display: inline-block;
+    width: 320px;
+    height: 40px;  
+  }
+/* Styles the nav titles */
+
+  nav li {
+    border-right: 1px solid black;
+
+  }
+/* Adds boarder in between titles */
+
+  nav li:last-child {
+ border-right: none;
+    }
+/* Deletes last border */
+
+	.container{
+		width: 1024px;
+		margin: auto;
+		padding: 10px;
+		background-color: #bfdfdd;    
+	}
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: black;
+    position: relative;
+    text-align: left;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+/* Styles Heading 1 */
+
+    main p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: black;
+		text-align: left;
+		line-height: 22px;
+    }
+    /* Styles main paragraph */
+
+    .two {
+		width: 250px;
+		float: left;
+		padding: 1px;
+		padding-right: 16px;
+		padding-bottom: 21px;
+    }
+/* position second image */
+
+	h2 {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: black;
+		text-align: left;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+/* Styles Header 2 */
+
+	ul li {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: black;
+		text-align: left;
+	}
+/* Styles the unordered list */
+
+	ul {
+		list-style-type: disc;
+		padding-left: 15px;
+	  }
+/* Adds bulletts and padding to the unordered list */
+
+	h3 {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        color: black;
+		text-align: left;
+		padding-top: 28px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+/* Styles Heading 3 */
+
+	.form {
+		border: 1px solid black;
+		padding: 15px;
+		padding-top: 25px;
+		text-align: left;
+	}
+/* Styles form */
+
+	.form label {
+		padding-top: 28px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	.forminput {
+		width: 100%;
+		height:25px;
+		text-align: left;
+	}
+	/* Sizes the first two text inputs */
+
+	.formmessageinput {
+		 width: 100%;
+		 height:100px;
+		 text-align: left;
+		 
+	}
+/* Sizes the last text input making it bigger */
+
+	h4 {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        color: black;
+		text-align: left;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		padding-right: 10px;
+	}
+	/* Styles Heading 4 */
+
+	.formbutton {
+		background-color: transparent;
+		border: .5px solid black;
+		padding: 10px;
+		text-align: left;
+	}
+/* Styles send button */
+
+	label {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: black;
+		text-align: left;
+	}
+/* Styles labels */
+
+	h5 {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+		text-align: right;
+	}
+	/* Styles Heading 5 */
